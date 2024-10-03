@@ -11,29 +11,29 @@ from logging.handlers import RotatingFileHandler
 IMDB_API_KEY = 'k_6p68dybu'
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7060558357:AAE2qAHq_KfDygVSvaAgxOAn7bGOAZcxXF0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7260195533:AAFHxZHM4TP6HsMzc-VaigJub-HNDAaniMI")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "20681593"))
+APP_ID = int(os.environ.get("APP_ID", "21113240"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "379596c99399dffbf5cd00f1242ec60c")
+API_HASH = os.environ.get("API_HASH", "cf60d4f8ad97d15080c0252d9af22321")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001942980809"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002444305749"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5672857559"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6824677167"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Jisshu11:Jisshu11@cluster0.ofnk7t8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://MAYA:MAYA@maya.pw5yseh.mongodb.net/?retryWrites=true&w=majority&appName=MAYA")
+DB_NAME = os.environ.get("DATABASE_NAME", "MAYA")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001955427962"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002337080928"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
